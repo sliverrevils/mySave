@@ -9,12 +9,11 @@ let updates1=0,
 
 
 const Memo=()=>{
+
     const [name,setName]=useState('');
     const [sename,setSename]=useState('');
     const [toggle,setToggle]=useState(false);
-    const [isMemo,setIsMemo]=useState(true);
-
-    
+    const [isMemo,setIsMemo]=useState(true);    
     
     const addUpdates=()=>{
         console.log('⭕',updates1);

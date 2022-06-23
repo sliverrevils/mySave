@@ -34,7 +34,7 @@
 opacity: 1;
 transform: translateX(0) rotate(0);
 }
-.main-menu-enter-done>*:hover{
+.main-menu-enter-done>*:hover:not(:first-child){
   background-color:black;
   font-weight: 700;
   font-size: 18px;
